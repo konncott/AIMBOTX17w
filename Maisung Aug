@@ -166,7 +166,7 @@ submitBtn.MouseButton1Click:Connect(function()
         })
 
         -- ▶️ รันสคริปต์
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/konncott/Chiriw-Settings/refs/heads/main/Chiriw-Settings",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/konncott/Chiriw-Settings/refs/heads/main/Chiriw-Settings?token=GHSAT0AAAAAADB5X54B2V36VUZZJ6DYKP2UZ7WHPEQ",true))()
 
         -- เล่นเสียงเมื่อใส่ key สำเร็จ
         successSound:Play()
